@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculadora">
+        <p>calculadora</p>
+        <p id="display" class="display"></p>
+        <p id="displayCima" class="displayCima"></p>
+        <div class="btn">
+            <button onclick="limparDisplay()">CE</button>
+            <button onclick="apagar()">DEL</button>
+            <button onclick="limpar()">C</button>
+            <button onclick="addSinal('/')">/</button>
+            <button onclick="addValor(7)">7</button>
+            <button onclick="addValor(8)">8</button>
+            <button onclick="addValor(9)">9</button>
+            <button onclick="addSinal('+')">+</button>
+            <button onclick="addValor(4)">4</button>
+            <button onclick="addValor(5)">5</button>
+            <button onclick="addValor(6)">6</button>
+            <button onclick="addSinal('*')">X</button>
+            <button onclick="addValor(1)">1</button>
+            <button onclick="addValor(2)">2</button>
+            <button onclick="addValor(3)">3</button>
+            <button onclick="addSinal('-')">-</button>
+            <button onclick="addValor(0)">0</button>
+            <button onclick="addValor('.')">.</button>
+            <button onclick="calcular()">ENTER</button>
+        </div>
+    </div>
+    <script src="/js/functions.js"></script>
+</body>
+</html>
+
