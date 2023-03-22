@@ -9,27 +9,23 @@ function addValor(x) {
     valor += ''+x; //
     valorDisplay = valor // guardando o valor completo
     console.log(valorDisplay)
-    display.innerHTML = valor // valor no display
+    display.innerHTML = x // valor no display
 }
 
 function addSinal(x) {
     if (x === '+' & valor != '') {
         displayCima.innerHTML = valor += '+' // valor de cima
         valorCima = valor // guardando valor cima
-        valor = ''
     }if (x === '/' & valor != '') {
         displayCima.innerHTML = valor += '/' // valor de cima
         valorCima = valor // guardando valor cima
-        valor = ''
     }if (x === '*' & valor != '') {
         displayCima.innerHTML = valor += '*' // valor de cima
         valorCima = valor // guardando valor cima
-        valor = ''
     }if (x === '-' & valor != '') {
         console.log('-')
         displayCima.innerHTML = valor += '-' // valor de cima
         valorCima = valor // guardando valor cima
-        valor = ''
     };
 }
 
@@ -38,8 +34,6 @@ function calcular() {
     displayCima.innerHTML = '' // valor cima restado
     display.innerHTML = valorDisplay
     valor = valorDisplay
-    console.log(valor)
-    console.log(valorDisplay)
 }
 
 function limpar() {

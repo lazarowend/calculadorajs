@@ -61,6 +61,8 @@ button:last-child:hover {
 .displayCima {
     position: absolute;
     top: 23px;
-    left: 85%;
+    left: 30%;
     font-size: 20px;
+    text-align: right;
+    width: 200px;
 }
